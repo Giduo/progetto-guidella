@@ -1,0 +1,14 @@
+Import pygame
+Pygame.init() 
+
+Size = width, height = 400,400
+White = 255,255,255
+Screen = pygame.display.set_mode(size) 
+
+Background = pygame.image.load()
+Player = Pygame.image.load()
+Blit = (player, 50,50, 200, )
+
+
+While true:
+       Screen.fill(white)
